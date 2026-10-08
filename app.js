@@ -175,7 +175,7 @@ const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
 
-for (let i = 0; i < nums.length - 1; i++) {
+for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 3 === 0) {
     fizz.push(nums[i]);
   }
